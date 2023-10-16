@@ -1,0 +1,10 @@
+deep_lesion:
+    imPixNum: 256
+    angSize: 0.1
+    angNum: 360
+    SOD: 362
+    imPixScale: 0.1
+    mask_indices: [32, 9, 14, 65, 10, 33, 13, 29, 31, 85]
+    sinogram_size_x: 360
+    sinogram_size_y: 611
+    window: '[-175, 275] / 1000 * 0.192 + 0.192'

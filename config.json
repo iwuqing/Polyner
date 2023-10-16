@@ -1,0 +1,39 @@
+{
+	"file": {
+		"in_dir": "./input",
+		"model_dir": "./model",
+		"out_dir": "./output",
+		"voxel_size": 0.1,
+		"SOD" : 362,
+		"h": 256,
+		"w": 256
+	},
+	"train": {
+		"gpu": 0,
+		"lr": 1e-3,
+		"epoch": 4000,
+		"save_epoch": 2000,
+		"num_sample_ray": 2,
+		"lr_decay_epoch": 2000,
+		"lr_decay_coefficient": 0.1,
+		"batch_size": 40,
+		"lambda": 0.2
+	},
+	"encoding": {
+		"otype": "Grid",
+		"type": "Hash",
+		"n_levels": 16,
+		"n_features_per_level": 8,
+		"log2_hashmap_size": 19,
+		"base_resolution": 2,
+		"per_level_scale": 2,
+		"interpolation": "Linear"
+	},
+	"network": {
+		"otype": "FullyFusedMLP",
+		"activation": "ReLU",
+		"output_activation": "Squareplus",
+		"n_neurons": 128,
+		"n_hidden_layers": 2
+	}
+}
