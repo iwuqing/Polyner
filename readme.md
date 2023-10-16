@@ -56,7 +56,7 @@ Polyner
 
 ## 3. Main Requirements
 To run this project, you will need the following packages:
-- PyTorch
+- PyTorch 3.8.13
 - tinycudann
 - SimpleITK, tqdm, numpy, and other packages.
 
