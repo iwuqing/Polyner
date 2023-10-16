@@ -68,8 +68,6 @@ python main.py
 ```
 This will train the Polyner model for the metal-corrputed sinogram (`./input/ma_sinogram_0~9.nii`). The well-trained model will be stored in `./model` and its corresponding MAR results will be stored in `./output`.
 
-The well-trained Polyner checkpoints for the reconstructions `./output/polyner_0~9.nii` can be download at: https://drive.google.com/file/d/1q92m-GiNKCo1W0XKP9bWz6vBE6eQtsaa/view?usp=sharing
-
 ## 5. Evaluation
 
 To qualitatively evalute the result, navigate to `./` and run the following comman in your terminal:
