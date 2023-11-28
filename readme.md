@@ -100,12 +100,12 @@ This code is available for non-commercial research and education purposes only. 
 
 If you find our work useful in your research, please cite:
 ```
-@misc{wu2023unsupervised,
-      title={Unsupervised Polychromatic Neural Representation for CT Metal Artifact Reduction}, 
-      author={Qing Wu and Lixuan Chen and Ce Wang and Hongjiang Wei and S. Kevin Zhou and Jingyi Yu and Yuyao Zhang},
-      year={2023},
-      eprint={2306.15203},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
+@inproceedings{
+wu2023unsupervised,
+title={Unsupervised Polychromatic Neural Representation for {CT} Metal Artifact Reduction},
+author={Qing Wu and Lixuan Chen and Ce Wang and Hongjiang Wei and S Kevin Zhou and Jingyi Yu and Yuyao Zhang},
+booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+year={2023},
+url={https://openreview.net/forum?id=xx3QgKyghS}
 }
 ```
